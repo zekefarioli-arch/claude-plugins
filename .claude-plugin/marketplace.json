@@ -1,0 +1,15 @@
+{
+  "name": "zeke-plugins",
+  "description": "Ezequiel's personal Claude Code plugins.",
+  "owner": {
+    "name": "Ezequiel Farioli",
+    "url": "https://github.com/zekefarioli-arch"
+  },
+  "plugins": [
+    {
+      "name": "consensus",
+      "source": "./plugins/consensus",
+      "description": "Structured multi-agent deliberation with forced stances, so design decisions get a real challenge instead of a yes."
+    }
+  ]
+}

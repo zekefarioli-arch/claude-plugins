@@ -1,0 +1,13 @@
+{
+  "name": "consensus",
+  "displayName": "Consensus",
+  "version": "0.1.0",
+  "description": "Structured deliberation for design decisions: independent subagents with forced stances (advocate, critic, pragmatist), a rebuttal round and a synthesis that keeps disagreements visible.",
+  "author": {
+    "name": "Ezequiel Farioli",
+    "url": "https://github.com/zekefarioli-arch"
+  },
+  "repository": "https://github.com/zekefarioli-arch/claude-plugins",
+  "license": "MIT",
+  "keywords": ["consensus", "deliberation", "debate", "architecture", "decision"]
+}
