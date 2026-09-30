@@ -44,6 +44,14 @@ Validate after any change:
 claude plugin validate ./plugins/consensus
 claude plugin validate .
 ```
+## Updating
+
+Claude Code pins an installed plugin to the `version` in its `plugin.json`. Pushing changes without bumping it means nobody, including you, receives them.
+
+1. Bump `version` in `plugins/consensus/.claude-plugin/plugin.json` (for example `0.1.0` to `0.1.1`).
+2. Validate: `claude plugin validate ./plugins/consensus`
+3. Commit and push.
+4. In Claude Code: `/plugin marketplace update zeke-plugins`
 
 ## Usage
 
